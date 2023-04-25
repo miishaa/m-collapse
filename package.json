@@ -1,0 +1,47 @@
+{
+  "name": "m-collapse",
+  "version": "1.0.1",
+  "description": "Lightweight and accessible accordion module",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles/style.css": {
+      "default": "./styles/style.css"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "styles/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepack": "run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miishaa/m-collapse.git"
+  },
+  "keywords": [
+    "collapse",
+    "accordion"
+  ],
+  "author": "miishaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miishaa/m-collapse/issues"
+  },
+  "homepage": "https://github.com/miishaa/m-collapse#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}

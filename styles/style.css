@@ -1,0 +1,11 @@
+.m-collapse {
+    &:not(.show) {
+        display: none;
+    }
+}
+
+.m-collapsing {
+    height: 0px;
+    overflow: hidden;
+    transition: height var(--collapsing-time, 500ms);
+}
