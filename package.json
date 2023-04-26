@@ -1,6 +1,6 @@
 {
   "name": "m-collapse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight and accessible accordion module",
   "type": "module",
   "main": "./dist/index.js",
@@ -32,7 +32,11 @@
   },
   "keywords": [
     "collapse",
-    "accordion"
+    "accordion",
+    "js-collapse",
+    "js-accordion",
+    "pure js collapse",
+    "pure js accordion"
   ],
   "author": "miishaa",
   "license": "ISC",

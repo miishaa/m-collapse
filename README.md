@@ -140,16 +140,18 @@ To initialise:
 ``` javascript
 const collapses = [ ...document.querySelectorAll('.js-collapse') ];
 
-if (collapses) {
+if (collapses.length) {
     collapses.forEach(collapse => {
         initCollapse(collapse);
     });
 }
 
-const accordion = document.querySelector('.js-accordion');
+const accordions = [ ...document.querySelectorAll('.js-accordion') ];
 
-if (accordion) {
-    initAccordion(accordion);
+if (accordions.length) {
+    accordions.forEach(accordion => {
+        initAccordion(accordion);
+    });
 }
 ```
 
